@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png">
+</head>
+<body>
+    <section class="header__section">
+        <header class="header__section--title">
+            <a href="index.html">SC Weathering</a>
+        </header>
+        <form class="header__section--form">
+            <input type="text">
+            <button type="submit">
+                <svg class="bi bi-search" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+                  </svg>
+            </button>
+        </form>
+    </section>
+    <main class="main__weather">
+        <ul class="main__weather--types">
+            <li class="main__weather--type" id="current">Current</li>
+            <li class="main__weather--type" id="hourly">Hourly</li>
+            <li class="main__weather--type" id="daily">Daily</li>
+        </ul>
+        <div class="main__weather--container">
+            
+        </div>
+        <ul class="main__weather--favorites">
+            <li>Favorites</li>
+        </ul>
+    </main>
+</body>
+</html>
